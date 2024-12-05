@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'  ?>
+<!DOCTYPE index
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 2.0//EN"
+         "http://java.sun.com/products/javahelp/index_2_0.dtd">
+
+<index version="2.0">
+<indexitem text="Wolf Dictionary Help">
+
+     <indexitem text="Introduction">
+        <indexitem text="Features" target="features" />
+        <indexitem text="General Operation" target="generaloperation" />
+        <indexitem text="Getting Started" target="gettingstarted" />
+        <indexitem text="Creating a Dictionary" target="enteringwords" />
+        <indexitem text="Phonetics" target="phonetics" />
+        <indexitem text="Searching and Sorting" target="searchandsort" />
+		<indexitem text="Customizng Printouts" target="templates" />
+        <indexitem text="Drag and Drop Facilities" target="draganddrop" />
+        <indexitem text="Incorporating Multimedia" target="multimedia" />
+		<indexitem text="Importing XML Worksheets" target="importxml" />
+     </indexitem>
+  </indexitem>
+</index>

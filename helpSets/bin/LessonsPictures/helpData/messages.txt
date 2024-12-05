@@ -1,0 +1,13 @@
+Replay recording
+Link to? (please enter lesson name);Anchor link for point;Layer
+Copy one layer's acorns to another layer
+Switch layer and click to paste
+No source layer selected
+Switch layers, you cannot copy a layer over itself
+About to copy layer xxxxx to layer xxxxx
+Copy and paste layers
+If depressed, you can click on picture to add audio
+If depressed, you can click on picture to add lesson links
+A picture is needed to be playable
+No acorns recorded at this layer
+Picture and Sounds

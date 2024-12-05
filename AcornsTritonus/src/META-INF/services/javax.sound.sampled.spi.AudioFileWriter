@@ -1,0 +1,18 @@
+# configuration file for the tritonus library
+#
+
+org.tritonus.sampled.file.AuAudioFileWriter
+org.tritonus.sampled.file.WaveAudioFileWriter
+org.tritonus.sampled.file.AiffAudioFileWriter
+
+#
+#  New services
+#
+org.tritonus.sampled.file.mpeg.MpegAudioFileWriter
+org.tritonus.sampled.file.pvorbis.VorbisAudioFileWriter
+org.tritonus.sampled.file.gsm.GSMAudioFileWriter
+org.xiph.speex.spi.SpeexAudioFileWriter
+
+
+# end
+#

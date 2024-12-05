@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'  ?>
+<!DOCTYPE toc
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN"
+         "http://java.sun.com/products/javahelp/toc_2_0.dtd">
+
+<toc version="2.0">
+
+  <tocitem text="ACORNS Sound Editor Help">
+     <tocitem text="Introduction">
+        <tocitem text="Overview" target="overview" />
+     </tocitem>
+
+     <tocitem text="General Operation">
+        <tocitem text="Application Frame"  target="main" />
+        <tocitem text="Annotation Panel"   target="AnnotationPanel" />
+        <tocitem text="Sound Panel"        target="soundpanel" />
+        <tocitem text="Selection"          target="selection" />
+     </tocitem>
+
+     <tocitem text="Annotating Sound">
+        <tocitem text="Annotation Controls" target="AnnotationControls" />
+        <tocitem text="Keyboard Controls"   target="keyboardcontrols" />
+     </tocitem>
+
+     <tocitem text="Manipulating Sound">
+        <tocitem text="Loading and Saving" target="loadsave" />
+        <tocitem text="Recording"          target="recording" />
+        <tocitem text="Edit Commands"      target="edit" />
+        <tocitem text="Zoom Commands"      target="zoom" />
+        <tocitem text="Speed and Volume"   target="speedvolume" />
+        <tocitem text="Display"            target="display" />
+     </tocitem>
+
+     <tocitem text="Help">
+        <tocitem text="Redo and Undo" target="redoundo" />
+        <tocitem text="Errors"        target="errors" />
+        <tocitem text="Help"          target="help" />
+     </tocitem>
+
+     <tocitem text="Additional Features">
+        <tocitem text="Annotations"       target="annotations" />
+        <tocitem text="Advanced Controls" target="controls" />
+     </tocitem>
+  </tocitem>
+</toc>

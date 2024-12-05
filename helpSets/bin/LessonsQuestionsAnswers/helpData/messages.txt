@@ -1,0 +1,9 @@
+Questions and Answers
+add;edit;garbage
+Enter a sentence here
+Sentences
+Basic;Moderate;Challenging;Hard;Extreme
+Difficulty level is already maximum;Difficulty level is already minimum;Increase difficulty level from;Decrease difficulty level from
+Reset game
+????
+You can type your answer here

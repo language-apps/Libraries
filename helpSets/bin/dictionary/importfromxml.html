@@ -1,0 +1,108 @@
+<html>
+<head>
+	<title>Importing from EXCEL worksheets</title>
+    <link rel="stylesheet" type="text/css" href="resources/style.css" />
+</head>
+
+<body><h2 align="center">Importing XML Spreadsheet Dictionaries into the Wolf Application</h2>
+
+<p>
+Many linguists create indigenous dictionaries using Microsoft Excel. The purpose of this document is to show how one can easily import these into the WOLF dictionary application. The steps for doing this follow:
+</p>
+
+<p><strong>First Step</strong>: Alter the first row of the Excel dictionary.</p>
+<ol>
+	<li>Row one of the spreadsheet maps EXCEL columns into WOLF fields. The first step is to alter these column headings using the rules listed below.
+	<br/><br/>
+	Column headings need to be in this specific format 
+	<blockquote>
+		FIELD:CODE:DIALECT:LANGUAGE_NAME:APPLY where<br/><br/>
+
+		FIELD = The specific WOLF field name<br/>
+		CODE = The three digit ISO language code<br/>
+		DIALECT = A one or two digit abbreviation for the language dialect<br/>
+		LANGUAGE_NAME = A user readable name for the language<br/>
+		APPLY = "w" or "d," to indicate if this field applies to a word or definition
+	</blockquote>
+	</li>
+	
+	<li>The meanings of FIELD, CODE, DIALECT, LANGUAGE_NAME, and APPLY<br/>
+	<ol type="a">
+		<li>FIELD<br/><br/>
+		<ol type="i">
+			<li>Valid WOLF field names that show vertically in the WOLF Layout are:
+			Word, Definition, Example, and Row Comment. WOLF displays Row Comments in a single display box. The other of these fields are displayed with one row for each language. </li>
+
+			<li>Valid WOLF field names that show in columns, but with a row for each language in the WOLF layout are: Compare, Encyclopedia Info, Gloss, Lexical Function, References, Reversals, Restrictions, Usage, and Variants</li>
+
+			<li>Valid WOLF field names that show in columns, but with a display row for each language in the WOLF layout are: Annotations, Antonyms, Category, Comment, Etymology, Language Links, Main Entry, Morphemes, Refer To, Spelling, Subentry, Synonyms, Table, Thesaurus</li>
+
+			<li>Valid WOLF fields for parts of speech can be customized to display in six different ways. The field names for these are: Ontology, Ontology-C, Ontology-PC, Ontology-P/C, Ontology-C/D, Ontology-PC/D.<br/><br/></li>
+		</ol>
+
+		<li>CODE<br/><br/>
+
+		The ISO 3 letter language code. For example, "eng," is the standard code for English. This field is required for Excel column A. It will be the default for other columns. Those fields that contain translation rows must specify a language code if they do not want to default to the default.<br/><br/></li>
+
+		<li>DIALECT<br/><br/>
+
+		A one- or two-digit abbreviation for a specific dialect of the language. For example, "us" might be used to specify American English. This entry is optional<br/><br/></li>
+
+		<li>LANGUAGE_NAME<br/><br/>
+
+		This is a human readable name of the language. For example, for CODE "eng," the name English would be used for LANGUAGE_NAME. This entry is optional.<br/><br/></li>
+
+		<li>APPLY<br/><br/>
+
+		The possible values for this field are "d" or "w" indicating respectively whether the field applies to a definition or a word. If a word specifies more than a single definition, the field will be applied to the last specified definition (in an earlier Excel column). If not specified, "w" is the default.<br/><br/></li>
+	</ol>
+	
+	<li>Additional Notes<br/><br/>
+	<ol type="a">
+
+		<li>Word must be specified in Excel Column A. Only one word on a row of the spreadsheets. Additional Word entries are allowed, but they must contain different CODE values.<br/><br/></li>
+
+		<li>Wolf has default column widths and fonts that it uses for its display. These can be overridden using Excel width and font facilities<br/><br/></li>
+	</ol>
+
+	<li>Examples of Excel Row 1 apexifications<br/><br/>
+		
+	English word translated into Tolowa with a definition in each lesson and an ontology displayed on two rows vertically (Ex: n for noun)<br/><br/>
+		
+	<table><tr>
+	<td style="border: 1px solid black;">1</td>
+	<td style="border: 1px solid black;">Word:eng:us:English</td>
+	<td style="border: 1px solid black;">Word:tol</td>
+	<td style="border: 1px solid black;">Definition:tol</td>
+	<td style="border: 1px solid black;">Definition</td>
+	<td style="border: 1px solid black;">Ontology-P/C:::d</td>
+	</tr></table>
+		
+	<br/><br/>Kala word with definitions in Kala and English. The Ontology data is displayed on a single row. Categories is used to specify a village location<br/><br/>
+
+	<table><tr>
+	<td style="border: 1px solid black;">1</td>
+	<td style="border: 1px solid black;">Word:kal:Kala</td>
+	<td style="border: 1px solid black;">Definition:eng:English</td>
+	<td style="border: 1px solid black;">Definition:kal</td>
+	<td style="border: 1px solid black;">Ontology:::w</td>
+	<td style="border: 1px solid black;">Categories</td>
+	</tr></table>
+	</li>
+</ol>
+
+
+<p><strong>Second Step</strong>: Use the Excel save as option and specify: Excel spreadsheet 2003 (.xml) option</p>
+
+<p><strong>Third Step</strong>: Assuming the Wolf application is installed, click on its import option. It is the third ion from the top left. It looks like an open book with an arrow pointing in. Browse to where you stored the dictionary XML file and select it. </p>
+
+<p><strong>Fourth Step</strong>: After the import, an icon will appear for each language on the bottom wall. Clicking once turns an icon read. Clicking again turns it green. The green icon is the gloss language. Those that are red are translation languages.</p>
+
+<p><strong>Final note</strong>: The default location that WOLF uses for storing its dictionaries is in the Acorns folder within Documents. A sample snippet of a successfully imported dictionary is shown below.</p>
+<p align="center">
+<img src="resources/importfromXML.jpg" alt="imagefromXML.jpg" />
+</p>
+</body></html>
+
+
+ 

@@ -1,0 +1,164 @@
+No default name for this file - type desired name
+Illegal lesson title
+Failed to create lesson
+Illegal layer number
+Illegal point value
+Gloss element must be in content of sound point tag
+Spell element must be in content of sound point tag
+Sound tag must be in content of sound point tag
+Link tag must be in content of link point tag
+Illegal image scale factor
+Illegal image rotate angle
+Unknown file type
+Please make a selection...
+Layer name
+Name for lesson links
+Layer names
+ACORNS - insert new lesson
+Select lesson type that you want to create
+ACORNS - modify lesson
+Title:
+Enter an appropriate title for this lesson
+Name:
+Enter the name that other lessons can link to
+Description:
+Enter an appropriate description for this lesson
+Enter lesson layer names:
+Enter layer names to be used to for this lesson
+Required fields are missing
+Please enter both type and title
+Lesson type xxxxx doesn't exist
+Lesson instantiation failed
+Lesson is not playable
+This lesson isn't linked to the name field of another lesson
+Couldn't load
+ACORNS - [AC]quisition [O]f [R]estored [N]ative [S]peech
+Maximum number of files are open
+File doesn't exist
+Acorns - Select a file name
+Failed to create file
+Couldn't find a default file name
+File in use
+Processing xxxxx command
+Operation failed, temporary file deleted
+Operation failed on 
+Operation canceled
+Operation successful
+Exception:
+Page:
+acorns;version;language;author;description;lesson;number;type;title;name;layer;value;language;align;image;picture;scale;angle;src;font;name;foreground;background;size;param;category;point;type;link;gloss;spell;description;sound
+Lesson List
+ACORNS - Select an image file
+ACORNS - Close file dialog
+xxxxx was not saved, save now?
+Couldn't convert from version xxxxx to xxxxx
+Couldn't convert to version xxxxx
+Class not found exception
+Shutdown operation canceled
+File;New;Open;Close;Save;Save as;Export;Import;Make Web Page;Properties;Print Preview;Print;Exit;Make Mobile App
+Show first lesson;Show last lesson;Show next lesson;Show previous lesson
+Delete;File;Lesson;Image
+No file is open
+File has no lessons
+Operation complete
+Operation failed
+ACORNS - Delete file
+Delete
+File xxxxx deleted
+xxxxx is in use
+Illegal file name xxxxx
+Operation canceled
+File xxxxx doesn't exist
+Could not delete xxxxx
+Couldn't create xml for lesson
+Nothing to undo
+SoundEditor executed successfully
+Nothing to redo
+Nothing to paste
+Lesson created
+Maximum number of lessons reached
+Please make a selection...
+ACORNS - Pick lesson type
+ACORNS - Paste lesson
+Lesson copied
+Edit;Undo;Redo;Sound Editor;Copy Lesson;Paste Lesson
+ACORNS - Save file
+ACORNS - Save file dialog
+xxxxx already exists, replace?
+File xxxxx saved
+File xxxxx closed
+ACORNS - Open file
+File xxxxx already open
+File xxxxx opened
+File xxxxx created
+Enter the appropriate language (or languages) used in this file
+Author
+Enter the author who created this file
+Description
+Describe the lessons in this file
+Properties for xxxxx updated
+xxxxx properties
+Language
+Audio types;Image types;Default;ACORNS - Select a File Name;ACORNS - Close file dialog;Operation failed;Web page created;Creating HTML;Writing files
+ACORNS - Create a web page
+File exported to xxxxx
+Printer failure;Print preview successful;I/O error;Printer job started;Print job canceled;Printing
+Web page options;Title:;Background color:;Select a background color;Choose background color;Web page width:;Web page height:;Audio Recording Enabled
+Couldn't create xxxxx
+Web page creation failed
+Creating Web Page
+Version;Copyright;All rights reserved;Contact;About ACORNS
+This product is freeware, but its intention is to support tribal language revitalization efforts.
+We hope that the software is useful, but provide no guarantees of its suitability for any purpose.
+It is not to be sold for profit or be reverse engineered. Use of this software implies agreement
+to abide by these terms. Please contact the author with questions or comments.
+ 
+Insert;Lesson;Image
+Help;Help topics;Sorry, help is not available;About
+Couldn't load the picture;Picture inserted
+View changed to tabbed view
+View changed to full screen
+Window;Full screen;Tabbed view;Switched to;Couldn't switch to
+Sound;on;off;Spelling;Gloss;Select native keyboard;Select the keyboard that matches your native language;ACORNS options;Default lesson layer names
+Keymap = for language" xxxxx unavailable
+Options changed appropriately
+Tools;Execute;Options;Audio;Feedback recordings
+Correct;Incorrect;Not quite correct
+Click a button to modify feedback recordings
+Feedbacks without recordings removed
+All feedbacks must have a recording
+Lesson executed successfully
+Accept;Cancel
+Some audio values were illegal
+Audio option operation canceled
+Audio parameters updated
+ACORNS Sound Editor: advanced sound controls
+Print Preview
+Print;Unable to determine default page size;Printer error
+Lesson
+Modify;Lesson;Fonts
+Modify lesson;Remove lesson;Click for lesson header commands;Help;Help for maintaining lessons
+Lesson deleted;Lesson modified
+Audio Files;Jar Files;Image Files;Web Page Files;Export Files;Import Files;Dictionary Files;ACORNS Files
+ACORNS: xxxxx is illegal
+ACORNS Applet not Initialized: xxxxx
+The lesson path or the file name parameter is missing
+xxxxx is not a valid lesson file
+Cannot open file
+Couldn't process media file
+No video component
+Resource unavailable
+Controller error
+Description element must be in content of sound point tag
+Video converter executed successfully
+Type:
+Spaces in file names can cause server difficulties, continue?
+Either xxxxx or xxxxx already exists
+Do you want to replace them?
+Animated GIF creation cancelled by user
+Couldn't create icons;Couldn't create fonts;Couldn't create audio files;Couldn't copy mobile assets;Couldn't create HTML file
+Apple Store applications disallow importing from that folder
+Apple Store applications disallow writing to that folder
+Apple Store applications disallow adding extensions to selected files - append .lnx to your selection
+ACORNS - An Error was encountered
+Permission denied, which disables features such as Import, Export, and working with custom fonts and keyboard layouts"

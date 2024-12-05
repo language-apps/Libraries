@@ -1,0 +1,16 @@
+Translate
+add;edit;garbage
+Enter a sentence here
+Sentences
+Play Indigenous Audio;Play back indigenous and show gloss;Select gloss;Select indigenous;Next category after ;Play back and show indigenous
+????
+Reset game
+????
+You can type your answer here
+Change play back speed
+Continue to next category;Repeat Category
+You've completed the ; category;
+xxxxx correct answerxxxxx out of xxxxx for xxxxx%
+Ok
+Continue normally;Skip this question
+Not quite correct, check your answer;Incorrect answer, do you want to try again?;

@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Keyboard Mapping</title>
+	<link rel=stylesheet type="text/css" href="/style.css" >
+</head>
+
+<body>
+<h1 align="center"><b>Keyboard Mapping</b></h1>
+
+<p>The ACORNS program supports keyboard mapping for indigenous scripts. There are several ways that this can be done. we describe
+each approach in the following sections.</p>
+<h3>True Type Fonts (TTF)</h3>
+
+<p>
+ACORNS can support any indigenous keyboard font that is installed in true type font (ttf) format. ACORNS automatically recognizes the fonts already 
+installed on your system. Other indigenous fonts need to be downloaded and installed
+before ACORNS can use them. There are standard procedures depending on your computer system to make additional
+fonts available. Once this is done, ACORNS will recognize their presence.</p>
+
+To activate a particular font, see the <a href="fonts.htm">Fonts</a> page. It will instruct you how to use indigenous fonts with ACORNS. To select
+a font for primary use, select the tools menu and then click <i>options</i>. A drop down menu will show the keyboard choices
+known to ACORNS. After you select a keyboard mapping, all of the ACORNS dialogs that request native language input
+will use that mapping. ACORNS will retain the keyboard mapping until it is later changed or overridden. It remembers
+the mappings across application runs, so you don't have to repeat the option selection process.</p>
+
+<h3>Unicode keyboard layouts</h3>
+<p>Each computer platform allows users to select Unicode keyboard layouts. ACORNS recognizes these layouts in the same way
+as other applications that are installed on your system.</p>
+
+<h3>Embedded keyboard layouts</h3>
+<p>Within the Documents folder an Acorns folder is created (or the acornsFiles Folder on earlier installations). 
+Applications acquired from Apple Store have strict restrictions regarding file access. Therefore,</p>
+<p>On APPLE systems, keyboard layouts are controlled by .keylayout files. Simply drop one (or more) of these files into the
+acornsFiles/keylayoutFiles (or Acorns/keyLayoutFiles on newer installations). If neither the acornsFiles or Acorns 
+folders exist, they will be created automatically by ACORNS software. ACORNS can use .keyLayout files on Windows and 
+other computer platforms. Just make sure that when you add the font to ACORNS (see <a href="fonts.htm">Fonts</a>), 
+that you specify the language name to match the file name (without the .keylayout extension) of your .keylayout file.
+The advantage of using keylayouts this way is they will automatically embed into Web and Mobile-based versions of 
+the lessons you create.</p>
+
+<p>.keylayout files are widely available. However you can create your own using the ACORNS ELK application. APPLE also has utilities that can be
+used to do the same thing. The ELK application can also be used to create custom True Type Font files.</p>
+
+</body></html>

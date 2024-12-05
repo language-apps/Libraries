@@ -1,0 +1,105 @@
+Turn sound off;Turn sound on;Turn native spelling off;Turn native spelling on;Turn translation off;Turn translation on
+You can't have more than xxxxx pictures in a lesson
+First click on a picture to select the one you want
+There must be at least four pictures
+Every picture entries must have a sound recorded, and gloss and indigenous text
+Correct answers: 
+Total questions: 
+Scale:;Font:;Link to:
+Center scaled image;Fill with distortion;Fill and truncate;Stretch vertical;Stretch horizontal
+Scale picture to button
+Rotate by 90 degrees to the right
+Scale picture size
+Select a background color
+Color choice canceled
+Select a text color
+Select a background picture
+Background picture choice canceled
+Click on the tick mark to select layer
+Link to another lesson
+Enter the name of the linked lesson
+Help
+Left justify text in play mode
+Center justify text in play mode
+Select font size for text display
+Help for setting up lesson
+Pop up menu;First lesson;Previous lesson;Next lesson;Last lesson;Record;Play recording;Stop recording;Lesson help;Go to linked lesson
+There is no recorded audio
+Layer is at the maximum;Layer is at the minimum;Increase layer from;Decrease layer from
+Scale factor is already maximum;Scale factor is already minimum;Increase scale factor from;Decrease scale factor from
+Accept;Remove;Cancel
+Font size is already maximum;Font size is already minimum;Increase font size from;Decrease font size from
+UP - Reveal the answer;RIGHT - continue;LEFT - hear again;DOWN - stop sound;Enter - Check your entry
+There is no picture to remove
+Print Preview;
+Print;Printer error;Close;Unable to determine default page size
+Select language keyboards
+Language:
+Enter language that applies to the selected font
+Please select the language you want to remove
+The first language cannot be removed
+Please select a language from the list
+Please select an available font
+Please select an available font size
+Please enter the native language
+Remove;Set Active;Add/Modify;Confirm
+You can't record more than xxxxx audio clips
+List of sounds (Please click on entry to delete or modify)
+Click over the entry that you want to modify
+Enter audio with annotated text
+No gloss entered
+Insert;Delete/Modify;Cancel;
+Please make a selection
+Select the keyboard that matches your native language
+Font:;Gloss;Native Spelling;Browse;Additional Description
+Enter the translation of the recorded sound
+Enter the native spelling describing the recorded data
+Start your recording;Play back your recording;End your recording;Copy audio;Paste audio;Exclude
+Accept;Remove;Cancel
+Find file containing audio
+There is no audio object
+Sound system is not recording
+Sound system is active - first press the stop button
+Select an audio file
+File xxxxx doesn't exist
+Illegal file name
+Exception when loading audio file
+Cannot create url for
+Play Mode
+Choose;Background color;Foreground color
+Recording exceeds maximum size
+Default recording device
+Set start of clip;Set end of clip;Reset clip;Play clip;Save clip
+End time must be after start time
+Clip size is too large
+Optional additional information that you can enter if you wish
+Click to play audio
+add;edit;garbage
+Enter a sentence here
+Sentences
+There must be at least one sentence in the native language
+Audio recordings
+See the answer
+Verify (check) your answer
+All entries must have both gloss/indigenous text and audio recordings
+Progress ...
+Select Video File
+Continue to next category;Repeat Category
+You've completed the ; category;
+xxxxx correct answerxxxxx out of xxxxx for xxxxx%
+Ok
+Continue normally;Skip this question
+Not quite correct, check your answer;Incorrect answer, do you want to try again?;
+The question must include an indigenous recording
+Each indigenous sentence should have at least two words
+At least one category (or question) is required
+Apple Store applications disallow non user-selected writes to that folder
+Apple Store applications don't allow the application to add the extension
+Select folder for writing ACORNS application data
+There are no preferences for this application
+File access permission granted
+copy;paste;copy layer;paste layer
+No source layer selected
+Switch layers, you cannot copy a layer over itself
+About to copy layer xxxxx to layer xxxxx
+Copy and paste layers

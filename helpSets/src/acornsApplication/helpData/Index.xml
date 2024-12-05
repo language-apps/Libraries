@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'  ?>
+<!DOCTYPE index
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 2.0//EN"
+         "http://java.sun.com/products/javahelp/index_2_0.dtd">
+
+<index version="2.0">
+ <indexitem text="ACORNS Help">
+
+    <indexitem text="Best Practice">
+       <indexitem text="Overview" target="acornsoverview" />
+       <indexitem text="Export Files" target="ExportFiles" />
+       <indexitem text="Import Files" target="ImportFiles" />
+    </indexitem>
+
+    <indexitem text="Overview" target="acornsoverview" />
+    <indexitem text="Language Revitalization" target="acornsoverview" />
+    <indexitem text="Picture and Sound" target="UndoEdit" />
+    <indexitem text="Extract Video Clips" target="MovieToGif" />
+
+    <indexitem text="XML">
+       <indexitem text="Export Files" target="ExportFiles" />
+       <indexitem text="Import Files" target="ImportFiles" />
+	   <indexitem text="Web Page"     target="WebPage" />
+	   <indexitem text="Mobile Web App" target="MobileApp" />
+    </indexitem>
+
+    <indexitem text="Default File Names" target="NewFiles" />
+
+    <indexitem text="File Header">
+       <indexitem text="File Properties" target="PropertiesFiles" />
+       <indexitem text="Modify Files" target="ModifyFiles" />
+       <indexitem text="Edit Command" target="ModifyEdit" />
+    </indexitem>
+
+    <indexitem text="Lesson Header">
+       <indexitem text="Insert Lesson" target="InsertLesson" />
+       <indexitem text="Modify Lesson" target="ModifyLesson" />
+    </indexitem>
+
+    <indexitem text="Open Source" target="AboutHelp" />
+    <indexitem text="Lesson List" target="LessonListLesson" />
+    <indexitem text="Redo"        target="RedoEdit" />
+    <indexitem text="Undo"        target="UndoEdit" />
+
+    <indexitem text="Lesson List Panel">
+       <indexitem text="Lesson Insert"        target="InsertLesson" />
+       <indexitem text="Lesson List Display"  target="LessonListLesson" />
+       <indexitem text="Lesson Modify"        target="ModifyLesson" />
+    </indexitem>
+
+    <indexitem text="Files">
+       <indexitem text="Close"      target="CloseFiles" />
+       <indexitem text="Delete"     target="DeleteFiles" />
+       <indexitem text="Export"     target="ExportFiles" />
+       <indexitem text="Import"     target="ImportFiles" />
+       <indexitem text="New"        target="NewFiles" />
+       <indexitem text="Open"       target="OpenFiles" />
+       <indexitem text="Properties" target="PropertiesFiles" />
+       <indexitem text="Recent"     target="RecentFiles" />
+       <indexitem text="Save"       target="SaveFiles" />
+       <indexitem text="Save as"    target="SaveAsFiles" />
+    </indexitem>
+
+    <indexitem text="Help">
+       <indexitem text="About"             target="AboutHelp" />
+       <indexitem text="Contents"          target="ContentsHelp" />
+       <indexitem text="Index"             target="IndexHelp" />
+       <indexitem text="Search"            target="SearchHelp" />
+       <indexitem text="Tool Tips"         target="OverviewHelp" />
+       <indexitem text="Context Sensitive" target="OverviewHelp" />
+       <indexitem text="Overview"          target="OverviewHelp" />
+    </indexitem>
+
+    <indexitem text="Images">
+       <indexitem text="Delete" target="DeleteImage" />
+       <indexitem text="Insert" target="InsertImage" />
+    </indexitem>
+ 
+    <indexitem text="Native Keyboards">
+       <indexitem text="Font Handling" target="Fonts" />
+       <indexitem text="Keyboard Mapping" target="KeyMaps" />
+    </indexitem>
+
+    <indexitem text="Sound Editor">
+       <indexitem text="Edit Sounds" target="SoundEditor" />
+    </indexitem>
+
+    <indexitem text="Lesson">
+       <indexitem text="Copy and Paste" target="CopyPaste" />
+  	   <indexitem text="Delete"      target="DeleteLesson" />
+ 	   <indexitem text="Embed Keyboards/Fonts" target="EmbedFonts" />
+       <indexitem text="Execute"     target="ExecuteLesson" />
+       <indexitem text="Insert"      target="InsertLesson" />
+       <indexitem text="Lesson List" target="LessonListLesson" />
+       <indexitem text="Modify"      target="ModifyLesson" />
+       <indexitem text="Scroll"      target="ScrollLesson" />
+    </indexitem>
+
+     <indexitem text="Execute" target="ExecuteLesson" />
+     <indexitem text="Options" target="OptionsTools" />
+ 	 <indexitem text="Audio Controls" target="OptionsControls" />
+     <indexitem text="Audio Feedback" target="AudioFeedback" />
+     <indexitem text="Windows">
+        <indexitem text="Full View"         target="FullViewWindows" />
+        <indexitem text="Switching Windows" target="SwitchWindows" />
+        <indexitem text="Tabbed View"       target="TabbedViewWindows" />
+     </indexitem>
+
+  </indexitem>
+</index>

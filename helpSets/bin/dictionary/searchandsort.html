@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Search and sort facilities</title>
+    <link rel="stylesheet" type="text/css" href="resources/style.css" />
+</head>
+<body>
+<h2>Search and sort facilities</h2>
+
+<table align="center" cellspacing="40"><tr>
+	<td><img src="resources/sort.png" alt="sort.png" /></td>
+	<td align="center"><img src="resources/searchandsort.jpg" align="searchandsort.jpg" /></td>
+	
+</tr></table>
+<p>The above pictures show the controls that you can use to search or sort a dictionary. The icon at the left appears
+on the west wall of the WOLF application frame. Simply click on that icon, and WOLF will sort the dictionary alphabetically.
+For languages that require a custom sort orders, please refer to the <a href="gettingstarted.html">language entry</a> page.</p>
+
+<p>On the right of the above picture, there is a label shown containing a <strong>W</strong> character. Clicking on this label 
+will change the <strong>W</strong> to a <strong>C</strong>. Clicking again changes the label to display an <strong>O</strong> 
+character. Another click causes the label to revert to the initial <strong>W</strong> character. The purpose of this label is 
+to control the type of searching that you desire. <strong>W</strong> stands for a word search, <strong>C</strong> stands for a 
+category search, and <strong>O</strong> stands for an ontology search. For example if you want to find all of the past tense 
+words in your dictionary, do an ontology search using the GOLD term <i>past</i>.</p>
+
+<p>To start a search, type the term you want in the text field to the left of the label and tap the keyboard <em>enter</em> key. 
+Searching allows for wild card entry. For example, searching for <em>w*</em> will find all the words in the dictionary starting 
+with the letter, <em>w</em>. The <em>*</em> serves as a wild card for any number of characters. Similarly, the <em>?</em> 
+character wild cards a single character. Actually, the search field allows for much more powerful capabilities. If you understand 
+regular expressions, it supports almost all regular expressions with a couple of minor differences. Searches are not 
+case-sensitive. (<em>w*</em> will find the same words as <em>W*</em>). Also, if you enter a <em>*</em> or a <em>?</em>, WOLF will 
+insert a period for you (if you didn't already do that). This is an accommodation for users that do not have a background with
+using regular expressions. Although it slightly reduces the searching capabilities, it makes life easier for those users.</p>
+
+<p>At the left of the above picture are three buttons, which work similar to back, forward, and refresh buttons that
+exist in most Web browsers. Each search refines the words contained in a previous search. After a search, you can 
+click <em>back</em> to have WOLF display the words shown prior to the search. 
+The forward button restores the search, should you wish to do that. The back and forward buttons are ghosted until 
+you do your first search (note how they show in the above picture). The refresh button reloads the entire 
+dictionary in its initial state.
+</p>
+</body>
+</html>

@@ -1,0 +1,204 @@
+Recording Parameters
+Audio compression extension;Select from available audio formats
+Recording rate;Must be between 8000 and 88200;8000;11025;12000;16000;22050;24000;32000;44100;48000;88200
+Select from available choices
+Voice activation window size;Must be between 0 and 1000 milliseconds;0;100;i
+Voice activation threshold;Approximate decibel value to start recording;0;80;i
+Frame rate;Must be between 8000 and 88200;8000;11025;12000;16000;22050;24000;32000;44100;48000;88200
+Bits per sample;Must be 8 or 16;8;16
+Channels;Must be 1 or 2;1;2
+Big endian?;Must be y or n;no;yes
+Encoding;Must be PCM SIGNED, PCM UNSIGNED, ULAW, or ALAW;PCM_SIGNED;PCM_UNSIGNED;ULAW;ALAW
+Averaged?;Must be y or n;no;yes
+Analysis Parameters
+Window type;Must be Hamming, Blackman, Hanning, or None;None;Hamming;Blackman;Hanning
+Filter size;Must be between 16 and 256;16;256;i
+Gaussian Mel filter spread damping factor;Must be between 0.5 and 4.5;0.5;4.5;d
+Signal to trim from front;Must be a positive integer < 88200;0;88200;i
+Round to next zero amplitude?;Choose no or yes selection;no;yes;
+Maximum recording length;Must be integer minutes from 1 to 30;1;30;i
+Speech Recognition Parameters
+Pre-emphasis factor;Must be between 0 and 1;0;1;f
+Window size;Must be 1 to 1000 milliseconds;2;1000;f
+Window shift;Must be up to millisecond size of window;1;1000;f
+Number of Mel filters;Must be an integer from 5 to 100;5;100;i
+Minimum Bandpass frequency;Must be between 0 and 10,000 and less than maximum;0;10000;d
+Maximum Bandpass frequency;Must be between minimum and 10,000 and greater than minimum;0;10000;d
+Number of Cepstral features;Must be between 5 and 20;5;20;i
+Feature vector mask;Each bit is a feature to display;0;999999999999999999;l
+Must be at least one appropriate recorder
+Illegal input
+Processing - please wait
+No sound clip has been recorded
+There is nothing selected
+Modify operations requires to click at a single point
+There are no annotations available
+Insert operation failed
+Couldn't display the edited wave
+Edit operation failed
+Couldn't display the edited wave
+Delete operation failed
+Couldn't display the edited wave
+Unrecognized command
+Processing complete
+Illegal file name
+There is nothing to save
+Sound file types
+Select a file name for writing
+Already exists, replace?
+Audio File Dialog
+Write operation canceled
+Could not delete
+Write operation canceled
+I/O Fault: Write operation failed
+Save operation failed
+Select an audio file
+doesn't exist
+Exception when loading audio file
+File load operation canceled
+Couldn't display the file
+System is busy - try again later
+Processing - please wait
+Unrecognized command
+Processing complete
+Sound system is active - press the stop button
+Please speak clearly into your microphone
+Sound system is not active
+Sound system is not active
+Couldn't copy the new recording
+Couldn't insert the new recording
+Couldn't display the recording
+Recording stopped by user
+No sound clip has been recorded
+Couldn't scroll to front
+Couldn't scroll to back
+Reset operation failed
+Couldn't display the reset wave
+Couldn't display the file
+Reading xxxxx failed
+File  xxxxx loaded
+Couldn't display the file
+Reading annotations failed
+Writing annotations failed
+File xxxxx saved
+There is nothing selected
+Copy operation failed
+Couldn't display the edited wave
+Selected text has been copied
+Cut operation failed
+Couldn't display the edited wave
+Paste operation failed
+Couldn't display the audio
+Delete operation failed
+Couldn't display the edited wave
+Duplicate operation failed
+Trim operation Failed
+Silence operation failed
+Recording can't be louder
+Sound volume increased
+Recording can't be softer
+Sound volume decreased
+Sound increase failed
+Couldn't display the audio
+Sound volume increased to maximum
+Selection not available
+Nothing to redo
+Nothing to undo
+Cannot zoom in any more
+Cannot zoom out any more
+Cannot zoom to selected area
+Cannot zoom any more
+Remove selections to execute this command
+Recording can't play faster
+Recording will now play faster
+Recording can't play slower
+Recording will now play slower
+Mute;Turn on or off the speaker output;Drag to control speaker volume
+Boost;Turn on or off the boosting of microphone input signals;Drag to Control Microphone Input Volume
+Couldn't access mute controls
+Couldn't alter the speaker controls
+Couldn't alter the microphone controls
+Get help on how to edit sounds
+Sorry, no help is available
+Switch between annotating and editing audio
+Configure sound editor advanced controls
+Accept;Cancel;ACORNS Sound Editor: Advanced sound controls
+Some values were illegal
+Speakers:;Volume;"Microphone:
+Error and ACORNS acknowledgement messages display here
+Enter gloss (first language) text describing the recording
+Enter native language text describing the recording
+Reset this recording to start over
+Browse for previously recorded speech
+Export with gloss and native annotations
+Import with gloss and native annotations
+Save speech in a standard format without annotations
+Copy a portion of the recorded sound
+Cut a portion of the recorded sound
+Paste a recorded sound into this recording
+Delete the selected portion of the recorded sound
+Duplicate the selected portion
+Silence the speech outside of the selection
+Insert a period of silence
+Speed up how fast the recording plays
+Slow down the speed that the recording plays
+Increase the volume of the selected speech
+Decrease the volume of the selected speech
+Amplify as loud as possible
+Display recorded sound wave over time
+Display sound wave as a spectrogram
+Display frequencies at the recorded speech selection
+Display feature vector for recording
+Select the part before the current position
+Select the entire sound
+Select the part after the current position
+Scroll to the start of this recording
+Record some new speech
+Play back recorded speech
+Stop play back of recorded speech
+Scroll to the end of this recording
+Zoom in
+Zoom out
+Zoom to fit selected portion of the recording
+Zoom to fit the display to the entire recording
+Add a new annotation
+Edit an existing annotation
+Remove an annotation
+Gloss:;Enter gloss (first language) text describing the recording
+Annotation #:;Keyboard language:;Native:;Text:;Enter native language text describing the recording
+Undo the last operation;Redo the last operation
+Keyboard remapped to
+Click on desired layer of sounds and links
+Select the keyboard that matches your native language
+Recording device;Select device from available choices
+Min MEL frequency must be less than max MEL frequency
+Window shift must be less than window size
+Linear prediction algorithm;Toeplitx for auto correlation, Choleski for covariance;Toeplitz;Choleski
+Linear prediction coefficients;Must be between 8 and 20;8;20;i
+Spectrogram;Choose wide band or narrow band;Wide Band;Narrow Band
+Pitch Detection algorithm;Choose from available choices;Harmonic Product Spectrum;YIN;Cepstrum
+Rate change percentage per click;Select from available percentages;5;10;20;33;50
+Dynamic Time Warp correctness factor;Must be positive;0;1000;d
+Dynamic Time Warp closeness factor;Must be positive and below the correct factor;0;1000;d
+Rate Change Algorithm;Select from available choices;Default;PSOLA
+Dynamic Time Warp Distance;Select from available choices;Linear;Euclidian
+Dynamic Time Warp Weights
+Dynamic Time Warp close measurement must be below Dynamic Time Warp correct measurement
+Dynamic Time Warp weight must be positive;0;10000;d
+Color Palette;Choose grey scale or colors;Grey Scale;Color Palette
+Mel Filter Bank Type;Triangle or Gaussian filters;Triangle;Gaussian
+Apply filter to the audio signal
+Filter type;Select from the available choices;None;Band Pass - Butterworth;Wiener;Spectral Subtraction;Band Pass - Window Sinc
+Cannot filter the audio signal, check option panel filter choices
+Audio signal filtering successful
+Matrix is not positive definite
+Display CEPSTRAL distances between frames
+No built-in microphones found
+Audio Files
+Select annotation data to import
+Select annotation data to export
+Select the file name to write
+Audio written with the associated gloss and text animation
+Illegal file extension
+Apple Store applications disallow writing annotations to that folder
+Apple Store applications disallow accessing annotations from that folder

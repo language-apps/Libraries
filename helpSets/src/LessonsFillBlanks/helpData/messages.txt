@@ -1,0 +1,11 @@
+No annotation data
+Playable lessons need at least one annotation
+Play back or recording failed
+Turn continuous story playback off;Turn continuous story playback on
+Basic;Moderate;Challenging;Hard;Extreme
+Difficulty level is already maximum;Difficulty level is already minimum;Increase difficulty level from;Decrease difficulty level from
+Correct missing word
+Enter the missing word here:
+Hear and Respond
+Reset lesson
+replay the last part of the recording;see the answer;pause;continue playing;verify your answer

@@ -1,0 +1,95 @@
+<html>
+  <head>
+     <title>Sound and Annotation Panel File Control Buttons</title>
+     <link rel=stylesheet type="text/css" href="/style.css" >
+  </head>
+
+  <body>
+      <h2 align="center">Sound and Annotation Panel File Control Buttons</h2>
+      <p>
+      The file control buttons allow you to load and save previously recorded sound files.
+      </p>
+      <table align="center" border="1">
+      <tr>
+         <td align="top">Erase&nbsp;&nbsp;&nbsp;<img align="middle" src="soundControls/reset.png" ></td>
+         <td>
+            This button clears the sound that displays in the sound panel window.
+         </td>
+      </tr>
+      <tr>
+         <td valign="top">Browse<img align="middle" src="soundControls/browse.png" ></td>
+         <td>
+            You use the browse button to look for a sound file stored on your disk. When you click
+            on this button, a file dialog frame will appear. Click on the drop down menu to navigate
+            to the folder that contains the desired file. The ACORNS sound editor will remember the
+            path to this folder the next time you decide to load a recorded sound. This method of 
+            file navigation is consistent with how other windows-based applications execute.
+            <p>
+            Once you navigate to the correct folder, you can type the name of the file that you want.
+            You can also double click on the file name you want. It's name should show in the center 
+            window of the file dialog frame. If you change your mind, click on the cancel button.
+            </p> 
+			<p>You can also use a drag and drop facility to load pre-recorded sounds. First open the operating system
+			folder containing your audio files. Then press the mouse over the desired audio file, drag over the sound panel, 
+			and when you see a small white rectangle show under the mouse, release. The audio will load into the sound panel.			
+         </td>
+      </tr>
+      <tr>
+         <td valign="top">Import&nbsp;&nbsp;<img align="middle" src="soundControls/import.png" ></td>
+         <td>
+            The import button works the same way as does the browse button described above. The 
+            difference is that you can import both the sound file and the annotations  that you
+            previously saved using the export button. See the 
+            <a href="annotations.html">annotation</a> page for details. 
+            <p>
+            Standard sound file formats do not include annotations.The import option looks for an
+            additional text file with an .xml extension that contains the annotations. This text
+            format conforms to best practice procedures for dealing with linguistic data because
+            text files are a standard format that is not proprietary. Programmers can easily write programs to access 
+            and  manipulate the data.
+            </p>
+         </td>
+      </tr><tr>
+         <td valign="top">Export&nbsp;&nbsp;<img align="middle" src="soundControls/export.png" ></td>
+         <td>
+            When you click on the export button, a file save dialog frame appears. This dialog frame
+            allows you to pick the file format you want and lets you navigate to the folder
+            where you want to store your sound file.
+            <p>
+            The export operation displays a series of radio buttons. Click on the button that
+            indicates which sound format type you want to use.The default is 
+            <strong><em>wav</em></strong> since this is the most commonly used format.
+            </p><p>
+            Use this frame to navigate to the folder where you want to store your sound files. The 
+            ACORNS sound editor will remember the path to this folder the next time you decide to 
+            export a recorded sound. This method of file navigation is consistent with how other 
+            windows-based applications execute.
+            </p><p>
+            After navigating to the appropriate file folder, you can type the name you want to use.
+            You can also double click on one of the files displayed in the center window of the 
+            save dialog frame. You will get a warning message if you
+            attempt to replace an existing file. Press the confirm button to replace the file with
+            the recorded sound your working with. Press cancel if you would rather not go ahead with
+            the export operation.
+            </p><p>
+            The export option saves files along with any annotations that you enter. See the
+            <a href="annotations.html">annotation</a> page for details. As a result, the ACORNS
+            Sound Editor creates two files. One of the files is in a standard format for sound files.
+            The other files is a text file with an .xml extension containing the annotations.This
+            conforms to best practice procedures for dealing with linguistic data. Text files are
+            a standard format that is not proprietary.  Programmers can easily write programs to 
+            access and  manipulate the data.
+            </p>
+         </td>
+      </tr><tr>
+         <td valign="top">Save&nbsp;&nbsp;&nbsp;&nbsp;<img align="middle" src="soundControls/save.png" ></td>
+         <td>
+            This button is works like the export operation described above. The difference is the
+            annotations that you enter will not be saved. Standard sound file formats do not
+            include annotation data. See the <a href="annotations.html">annotation</a> page for 
+            details.
+         </td>
+      </tr><tr>       
+      </table>
+  </body>
+</html>

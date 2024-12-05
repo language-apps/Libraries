@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'  ?>
+<!DOCTYPE index
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 2.0//EN"
+         "http://java.sun.com/products/javahelp/index_2_0.dtd">
+
+<index version="2.0">
+
+  <indexitem text="ACORNS Sound Editor Help">
+     <indexitem text="Introduction">
+        <indexitem text="Overview" target="overview" />
+     </indexitem>
+
+     <indexitem text="General Operation">
+        <indexitem text="Application Frame"  target="main" />
+        <indexitem text="Annotation Panel"   target="AnnotationPanel" />
+        <indexitem text="Sound Panel"        target="soundpanel" />
+        <indexitem text="Selection"          target="selection" />
+     </indexitem>
+
+     <indexitem text="Annotating Sound">
+        <indexitem text="Annotation Controls" target="AnnotationControls" />
+        <indexitem text="Keyboard Controls"   target="keyboardcontrols" />
+     </indexitem>
+
+     <indexitem text="Manipulating Sound">
+        <indexitem text="Loading and Saving" target="loadsave" />
+        <indexitem text="Recording"          target="recording" />
+        <indexitem text="Edit Commands"      target="edit" />
+        <indexitem text="Zoom Commands"      target="zoom" />
+        <indexitem text="Speed and Volume"   target="speedvolume" />
+        <indexitem text="Display"            target="display" />
+     </indexitem>
+
+      <indexitem text="Help">
+        <indexitem text="Redo and Undo" target="redoundo" />
+        <indexitem text="Errors"        target="errors" />
+        <indexitem text="Help"          target="help" />
+     </indexitem>
+
+     <indexitem text="Additional Features">
+        <indexitem text="Annotations"       target="annotations" />
+        <indexitem text="Advanced Controls" target="controls" />
+     </indexitem>
+  </indexitem>
+</index>

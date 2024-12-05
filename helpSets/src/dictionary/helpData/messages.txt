@@ -1,0 +1,3 @@
+Please select a language code
+Click once to select and turn red
+Click twice to set active and turn green

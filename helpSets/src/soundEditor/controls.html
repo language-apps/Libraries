@@ -1,0 +1,227 @@
+<html>
+  <head>
+     <title>Annotating Sound Recordings</title>
+     <link rel=stylesheet type="text/css" href="/style.css" >
+  </head>
+
+  <body>
+      <h2>Advanced Controls</h2>
+
+      <p>
+      You execute this option in two ways. It is part of the ACORNS tools menu. It is also part of the
+	  SoundEditor application. If you are in the SoundEditor, simply press the
+	  <img align="middle" src="soundControls/options.png" > button. 
+      When you do this you will see the following dialog frame. When the controls frame is executing,
+      You can change any of the fields that show. If you move the mouse over any of the text boxes, 
+      you will see the legal input values. If you change these fields, the ACORNS sound editor will 
+      use the modified values from then on. It will remember the changes when you next run the program.
+      </p>
+      <p>
+      If you are not familiar with digital signal processing, some of these fields might not make
+      sense. Don't worry. The default values are normally fine. The sections below give a brief 
+      description of each field.
+      </p>
+
+      <p class="centered">
+      <img src="data/controlOptions.png" >
+      </p>
+
+      <table align="center" border="1">
+	  <tr><td>Audio Compression Extension</td>
+	      <td>ACORNS presently can decode nine audio input formats (mp2,mp3, au, aif, aifc, ogg, wav, spx, and gsm)
+		  and can encode in six of those. The default encoding is wav because it is recognized on 
+		  all platforms. However it uses quite a lot of memoty. You might experiment with the
+		  other settings to determine which you prefer. For example spx is good for speech because
+		  the level of compression is approximately
+		  twenty five to one, with accurate playback. 
+		   </td>
+		</tr>
+		<tr><td>Recording Rate and Device</td>
+		    <td>On Mac systems the recording rate must be 44100 samples per second so this is the default. Window systems
+			can handle other rates. Normally, speech only requires 16000 samples per second for acceptible playback.<br><br>
+			The recording device selection is for systems that have multiple devices to record. If ACORNS does not correctly
+			pick the one desired, you can alter the one it uses.</td>
+	    </td></tr>
+		
+		<tr><td>Voice Activation Window Size and Threshold</td>
+		<td>ACORNS has a voice activation feature that will prevent it from recording audio until the
+		person with the microphone begins to speak. By default this option is disabled. If you enter
+		a positive decibel threshold (normally between 30 and 40 for speech) you can activate this
+		feature. The voice activation window size indicates the number of milliseconds at a time
+		that ACORNS will check to see if there is any speech. A large number could make the
+		voice activation feature less reliable; however, you might be able to be increase it somewhat.</td></tr>
+		
+        <tr><td>Frame Rate</td>
+            <td>This field controls the sample rate ACORNS uses internally for audio fields. The 16000 rate
+			    is sufficient for most playback and speech recognition applications. Higher sample rates will save 
+				in larger files and require more processing, and download times.
+            </td>
+        </tr>
+        <tr><td>Bits per Sample</td>
+            <td>Sound data normally stores using either eight bit or sixteen bit samples.
+                Eight bit formats are smaller, but can have poorer sound quality.
+            </td>
+        </tr>
+        <tr><td>Channels?</td>
+            <td>A value greater than one indicates that sounds will record in stereo. Speech 
+                data normally does not require stereo. Stereo files are at least double in size
+                than sound recorded with a single channel.
+            </td>
+        </tr>
+        <tr><td>Big Endian?</td>
+            <td>This field requires a yes/no answer. That is why it shows with a question
+                mark. PC compatible computers create files in little endian format. Motorola
+                computers use big endian format. Standard file formats normally support both
+                modes.
+            </td>
+        </tr>
+        <tr><td>Encoding</td>
+            <td>This field determines how the Sound Editor encodes the sound file. The standard
+                values are unsigned, signed, alaw, and ulaw. Be careful. If you pick a format
+                that is invalid for the type of sound file, recordings won't save successfully.
+            </td>
+        </tr>
+        <tr><td>Averaged?</td>
+            <td>This field requires a yes/no answer, hence the question mark. It applies to
+                sound files recorded with multiple channels (stereo). A yes means that the
+                sound editor will average the amplitudes of the channels. A no means that
+                the sound editor will use only the amplitudes from the first channel.
+            </td>
+        </tr>
+        <tr><td>Signal to Trim from the Front</td>
+            <td>Sometimes sound files have a spike of high amplitude frames in the front. This 
+                can cause the normalize option to appear to not work. This option automatically
+                silences the front portion of the sound wave to avoid this problem.
+            </td>
+        </tr>
+        <tr><td>Round to Next Zero Amplitude?</td>
+            <td>This field requires a yes/no answer, hence the question mark. When applying
+                the various editing options, it is commonly advisable to find the next zero
+                crossing point in the sound signal. This way, unexpected clicks can be avoided.
+                It is a good idea to keep this field set to yes.
+            </td>
+        </tr>
+        <tr><td>Maximum Recording Length</td>
+            <td>Long recordings use lots of storage and can be expensive to process. For these
+                reasons the ACORNS Sound Editor puts an upper limit on recording size. The default
+                limit is ten minute sound clips. You can override this default by typing a
+                different number of minutes into this field. Be careful. A value is that is too high 
+                can cause the sound editor to crash on systems with limited resources.
+            </td>
+        </tr>
+		<tr><td>Window type</td>
+			<td>The Sound editor provides a choice of window algorithms for its signal processing 
+			algorithms. This option allows the user to choose among these algorithms.
+			</td>
+		</tr>
+        <tr><td>Filter Size</td>
+            <td>Long filters do a better job but require more processing. If you are unconcerned
+                with the filter type, leave this field alone.
+            </td>
+        </tr>
+        <tr><td>Filter Type</td>
+            <td>The frequency domain and spectrogram displays use this field. Digital
+                signal processing uses filters to eliminate unwanted data from the signal.
+                This option will not affect the time domain display or any of the program's editing options.
+            </td>
+        </tr>
+         <tr><td>Preemphasis Factor</td>
+            <td>In speech recognition algorithms it is often difficult to recognize high frequency sounds.
+                This preemphasis algorithm modifies the speech signal to emphasize the higher frequencies. 
+                The value in this field determines how much emphasis is to be done.
+            </td>
+         </tr>      
+         <tr><td>Window Size</td>
+            <td>When a speech signal is chopped into sections, the rough edges cause problems for speech
+                recognition. Applying a hamming window algorithm smooths out the edges. The size of windows
+                need to be small enough to reflect the changes in speech, yet not too small. This field
+                sets the window size in milliseconds.
+            </td>
+        </tr>
+        <tr><td>Window Shift</td>
+            <td>Speech recognition algorithms break up the speech into overlapping sections called windows.
+                This field determines how much overlap is desired.
+            </td>
+        </tr>
+        <tr><td>Linear Prediction Algorithm</td>
+            <td>The Sound Editor uses linear prediction for filtering, for display, and for beta speech recognition
+			algorithms. There are several ways to calculate linear prediction and this gives the user the ability
+			to choose among these approaches.
+            </td>
+        </tr>
+        <tr><td>Linear Prediction Coefficients</td>
+            <td>The number of linear prediction coefficients impacts the accuracy of the algorithm. This is a user
+			selectable value.
+            </td>
+        </tr>
+        <tr><td>Spectrogram</td>
+            <td>The Sound Editor supports both wide and narrow band spectrogram output of speech signals. The approach
+			used is determined by this parameter.
+            </td>
+        </tr>
+        <tr><td>Color Palette</td>
+            <td>The Sound Editor audio display can be either in color or use a grey scale. This parameter allows the
+			user to choose the preferred approach.
+            </td>
+        </tr>
+        <tr><td>Rate Change Algorithm</td>
+            <td>There are various ways to alter the rate of speech to be faster or slower, and still maintain accurate
+			pitch. Presently, the Sound Editor only supports the pitch synchronous overlap and add (PSOLA) algorithm.
+            </td>
+        </tr>
+        <tr><td>Pitch Detection Algorithm</td>
+            <td>Determining accurate pitch is important to many digitial speech processing problems. This parameter 
+				allows the user to choose among supported algorithms.
+            </td>
+        </tr>
+        <tr><td>Rate change percentage per click</td>
+            <td>When the user clicks on the icon to speed up or slow down speech, the rate adjusts by the percentage
+			designated by this parameter.
+            </td>
+        </tr>
+        <tr><td>Number of Mel Frequencies</td>
+            <td>Human hearing is more sensitive to lower frequencies than to higher ones. The frequencies
+                in a speech signal are converted into Mel Frequencies so that the speech recognizer can
+                see a signal that closely mimics how humans hear. This is done by an algorithm that uses a
+                group of filters to manipulate the signal. This parameter controls the number of these
+                filters that the speech recognizer uses.
+            </td>
+        </tr>
+        <tr><td>Mel Filter Bank Type and Gaussian filter spread</td>
+            <td>These parameters determine how a bank of Mel filters overlap. It is an important
+			parameter that affects the quality of automatic speech recognition.
+            </td>
+        </tr>
+        <tr><td>Number of Cepstral features</td>
+            <td>Cepstral feature are a series of numbers extracted from each portion of a speech signal
+                (called a window). This field determines the number of values that are present in each 
+                feature vector.  
+            </td>
+        </tr>
+        <tr><td>Feature Vector Mask</td>
+            <td>The speech display shows the feature vector values displayed over time. This field is
+                useful to be able to control which feature vector values display. One needs to understand
+                binary to correctly apply this field. One bit pertains to each feature vector value. A
+                one means that the corresponding value gets displayed.
+            </td>
+        </tr>
+		
+        <tr><td>Minimum Bandpass Frequency</td>
+            <td>The above filters eliminate frequencies from the sound signal that are below
+                a designated value. If you are not concerned
+                with the filter type, leave this field alone.
+            </td>
+        </tr>
+        <tr><td>Minimum Bandpass Frequency</td>
+            <td>This parameter sets the lowest frequency that the Mel filters will consider.
+			Since normal speech soundwaves have frequencies below 8192 
+                cycles per second, high frequencies can normally be ignored.
+            </td>
+        </tr>
+        <tr><td>Dynamic Time Warp parameters</td>
+            <td>These parameters determine how ACORNS will compare two audio signals to 
+			determine whether they match. We advise that you leave these values alone.
+            </td>
+        </tr>
+     </table>
+</html>

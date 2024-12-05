@@ -1,0 +1,4 @@
+Show indigenous text;Show gloss text;Reset flash cards
+Display previous card;Display random card;Display next card
+Flash Cards
+

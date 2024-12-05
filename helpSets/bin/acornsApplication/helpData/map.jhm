@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+
+ <mapID target="acornsoverview"   url="../acornsoverview.htm" />
+  
+  <mapID target="UndoEdit"   url="../UndoEdit.htm" />
+  <mapID target="RedoEdit"   url="../RedoEdit.htm" />
+  <mapID target="SoundEdit"  url="../SoundEditor.htm" />
+  <mapID target="DeleteEdit" url="../DeleteEdit.htm" />
+  <mapID target="InsertEdit" url="../InsertEdit.htm" />
+  <mapID target="ModifyEdit" url="../ModifyEdit.htm" />
+  <mapID target="CopyPaste"  url="../CopyPaste.htm" />
+
+  <mapID target="CloseFiles"      url="../CloseFiles.htm" />
+  <mapID target="DeleteFiles"     url="../DeleteFiles.htm" />
+  <mapID target="ExportFiles"     url="../ExportFiles.htm" />
+  <mapID target="ImportFiles"     url="../ImportFiles.htm" />
+  <mapID target="WebPage"         url="../WebPage.htm" />
+  <mapID target="MobileApp"       url="../MobileWebPage.htm" />
+  <mapID target="NewFiles"        url="../NewFiles.htm" />
+  <mapID target="OpenFiles"       url="../OpenFiles.htm" />
+  <mapID target="PrintFiles"      url="../PrintFiles.htm" />
+  <mapID target="PropertiesFiles" url="../PropertiesFiles.htm" />
+  <mapID target="RecentFiles"     url="../RecentFiles.htm" />
+  <mapID target="SaveFiles"       url="../SaveFiles.htm" />
+  <mapID target="SaveAsFiles"     url="../SaveAsFiles.htm" />
+
+  <mapID target="OverviewHelp" url="../OverviewHelp.htm" />
+  <mapID target="AboutHelp"    url="../AboutHelp.htm" />
+  <mapID target="ContentsHelp" url="../ContentsHelp.htm" />
+  <mapID target="IndexHelp"    url="../IndexHelp.htm" />
+  <mapID target="SearchHelp"   url="../SearchHelp.htm" />
+
+  <mapID target="DeleteImage" url="../DeleteImage.htm" />
+  <mapID target="InsertImage" url="../InsertImage.htm" />
+  <mapID target="MovieToGif"  url="../MovieToGif.htm" />
+
+  <mapID target="DeleteLesson"     url="../DeleteLesson.htm" />
+  <mapID target="ExecuteLesson"    url="../ExecuteLesson.htm" />
+  <mapID target="InsertLesson"     url="../InsertLesson.htm" />
+  <mapID target="LessonListLesson" url="../LessonListLesson.htm" />
+  <mapID target="ModifyLesson"     url="../ModifyLesson.htm" />
+  <mapID target="ScrollLesson"     url="../ScrollLesson.htm" />
+  <mapID target="EmbedFonts"       url="../embeddedFontsKeyboards.htm" />
+
+  <mapID target="KeyMaps" url="../KeyMaps.htm" />
+
+  <mapID target="ExecuteLesson"     url="../ExecuteLesson.htm" />
+  <mapID target="OptionsTools"      url="../OptionsTools.htm" />
+  <mapID target="OptionsControls"   url = "/soundEditor/controls.html" />
+  <mapID target="AudioFeedback"     url="../audioFeedback.htm" />
+  <mapID target="Fonts"              url="../fonts.htm" />
+
+  <mapID target="FullViewWindows"   url="../FullViewWindows.htm" />
+  <mapID target="SwitchWindows"     url="../SwitchWindows.htm" />
+  <mapID target="TabbedViewWindows" url="../TabbedViewWindows.htm" />
+
+  <mapID target="SoundEditor"       url="../SoundEditor.htm" />
+
+</map>

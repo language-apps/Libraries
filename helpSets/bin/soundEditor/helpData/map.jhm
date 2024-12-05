@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+
+  <mapID target="keyboardcontrols"        url="../keyboardControls.html" /> 
+  <mapID target="AnnotationControls"      url="../annotationControls.html" /> 
+  <mapID target="AnnotationPanel"         url="../annotationPanel.htm" /> 
+
+  <mapID target="overview"    url="../overview.html" />
+
+  <mapID target="main"        url="../main.html" />
+  <mapID target="soundpanel"  url="../soundPanel.html" />
+  <mapID target="selection"   url="../selection.html" />
+  <mapID target="recording"   url="../recording.html" />
+  <mapID target="loadsave"    url="../loadSave.html" />
+  <mapID target="edit"        url="../edit.html" />
+  <mapID target="zoom"        url="../zoom.html" />
+  <mapID target="speedvolume" url="../speedVolume.html" />
+  <mapID target="display"     url="../display.html" />
+  <mapID target="annotations" url="../annotations.html" />
+  <mapID target="controls"    url="../controls.html" />
+  <mapID target="redoundo"    url="../redoUndo.html" />
+  <mapID target="help"        url="../help.html" />
+  <mapID target="errors"      url="../errors.html" /></map>
+</map>

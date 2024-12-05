@@ -1,0 +1,16 @@
+Mouse click on the correct picture as the audio plays
+Please click a single point within the picture to delete
+Nothing to remove
+No annotation data
+Playable lessons needs one picture annotation in layer
+Play back or recording failed
+Basic;Moderate;Challenging;Hard;Extreme
+Difficulty level is already maximum;Difficulty level is already minimum;Increase difficulty level from;Decrease difficulty level from
+Select non-continuous play mode;Select continuous play mode
+Hear and Click
+Reset lesson
+replay the last part of the recording;see the answer;pause;continue playing
+
+
+
+

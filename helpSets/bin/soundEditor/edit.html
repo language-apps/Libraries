@@ -1,0 +1,86 @@
+<html>
+  <head>
+     <title>Sound and Annotation Panel Edit Control Buttons</title>
+     <link rel=stylesheet type="text/css" href="/style.css" >
+  </head>
+
+  <body>
+      <h2 align="center">Sound and Annotation Panel File Edit Buttons</h2>
+      <p>
+      The edit control buttons allow you to alter sound recordings that you see in a 
+      wave display window at the center of a sound panel. These buttons are most effective
+      if you first select a portion of the displayed sound wave. To do this, first press the mouse
+      at the starting position in the display window. Then holding the pressed down position, drag 
+      your mouse to the ending position. Then release. You should see the portion that you selected
+      highlighted in the wave display window. The edit commands apply to the portion of the sound
+      display that you select.
+      </p>
+      If you make a mistake you can undo what you did. Refer to the <a href="redoUndo.html">Redo/Undo</a> 
+      page for details.
+      </p>
+      <table align="center" border="1">
+      <tr>
+         <td valign="top">Copy&nbsp;<img align="middle" src="soundControls/copy.png" ></td>
+         <td>
+            Pressing this button copies the selected portion of the sound wave to the ACORNS
+            sound editor clipboard. Refer to the paste command for what comes next.
+         </td>
+      </tr>
+      <tr>
+         <td valign="top">Cut&nbsp;<img align="middle" src="soundControls/cut.png" ></td>
+         <td>
+           Pressing this button deletes the selected portion of the sound wave. However, the deleted
+           portion is transferred to the ACORNS sound editor clipboard. Refer to the paste command for
+           what comes next.
+         </td>
+      </tr>
+      <tr>
+         <td valign="top">Paste&nbsp;<img align="middle" src="soundControls/paste.png" ></td>
+         <td>
+           To paste the sound contained in the ACORNS sound editor clipboard, first click the mouse
+           at the postition in a sound wave display window where you want the clipboard sound to 
+           insert. This can be in either of the two sound panels that display in the main sound
+           editor application. When you press the paste button, the sound saved in the clipbard
+           will insert into the wave. The display will show the modified wave. Note that after you
+           paste, the clipbard still retains the sound as well. This allows you to perform multiple
+           paste operations with the same sound clip. 
+         </td>
+      </tr>
+      <tr>
+         <td valign="top">Delete&nbsp;<img align="middle" src="soundControls/delete.png" ></td>
+         <td>
+           The delete button works just like cut, except that the deleted portion does not go to
+           the Sound Editor clipboard.
+         </td>
+      </tr>
+      <tr>
+         <td valign="top">Duplicate&nbsp;<img align="middle" src="soundControls/duplicate.png" ></td>
+         <td>
+         When you press the duplicate button, the selected portion of the sound wave is inserted
+         immediately after the selection. When you play back, you will hear the sound twice.
+         </td>
+      </tr>       
+      <tr>
+         <td valign="top">Trim&nbsp;<img align="middle" src="soundControls/trim.png" ></td>
+         <td>
+         The trim button silences everything outside of your selection. This command is useful
+         to eliminate clicks and background noise that playes before and after the recording.
+         </td>
+      </tr>       
+      <tr>
+         <td valign="top">Silence&nbsp;<img align="middle" src="soundControls/silence.png" ></td>
+         <td>
+         The silence button silences everything inside of your selection. This command can be useful
+         if you hear background static or noise between words.
+         </td>
+      </tr>       
+      <tr>
+         <td valign="top">Filter&nbsp;<img align="middle" src="soundControls/filter.png" ></td>
+         <td>
+         The filter button applies one of ACORNS filter algorithms to the audio signal. There is a parameter in
+		 the Sound Editor option panel that controls which filtering algorithm is used.
+         </td>
+      </tr>       
+      </table>
+  </body>
+</html>

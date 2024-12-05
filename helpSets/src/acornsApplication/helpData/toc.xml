@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'  ?>
+<!DOCTYPE toc
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN"
+         "http://java.sun.com/products/javahelp/toc_2_0.dtd">
+
+<toc version="2.0">
+  <tocitem text="ACORNS Help">
+     <tocitem text="Introduction">
+        <tocitem text="Overview" target="acornsoverview" />
+     </tocitem>
+
+     <tocitem text="Edit">
+	    <tocitem text="Copy and Paste" target="CopyPaste" />
+        <tocitem text="Delete" target="DeleteEdit" />
+		<tocitem text="Extract Video Clips" target="MovieToGif" />
+        <tocitem text="Insert" target="InsertEdit" />
+        <tocitem text="Modify" target="ModifyEdit" />
+        <tocitem text="Redo"   target="RedoEdit" />
+		<tocitem text="Sound Editor" target="SoundEdit" />
+        <tocitem text="Undo"   target="UndoEdit" />
+     </tocitem>
+ 
+     <tocitem text="Files">
+        <tocitem text="Close"      target="CloseFiles" />
+        <tocitem text="Delete"     target="DeleteFiles" />
+        <tocitem text="Export"     target="ExportFiles" />
+        <tocitem text="Import"     target="ImportFiles" />
+		<tocitem text="Web Page"   target="WebPage" />
+ 	    <tocitem text="Mobile Web App" target="MobileApp" />
+        <tocitem text="New"        target="NewFiles" />
+        <tocitem text="Open"       target="OpenFiles" />
+        <tocitem text="Printing"   target="PrintFiles" />
+        <tocitem text="Properties" target="PropertiesFiles" />
+        <tocitem text="Recent"     target="RecentFiles" />
+        <tocitem text="Save"       target="SaveFiles" />
+        <tocitem text="Save As"    target="SaveAsFiles" />
+     </tocitem>
+
+     <tocitem text="Help">
+        <tocitem text="About"        target="AboutHelp" />
+        <tocitem text="Contents"     target="ContentsHelp" />
+        <tocitem text="Index"        target="IndexHelp" />
+        <tocitem text="Overview"     target="OverviewHelp" />
+        <tocitem text="Search"       target="SearchHelp" />
+     </tocitem>
+
+     <tocitem text="Images">
+        <tocitem text="Delete" target="DeleteImage" />
+        <tocitem text="Insert" target="InsertImage" />
+     </tocitem>
+
+     <tocitem text="Keyboard Mapping">
+		<tocitem text="Font Handling"    target="Fonts" />
+        <tocitem text="Keyboard Mapping" target="KeyMaps" />
+     </tocitem>
+
+     <tocitem text="Sound Editor">
+        <tocitem text="Edit Sounds" target="SoundEditor" />
+     </tocitem>
+
+     <tocitem text="Lesson">
+        <tocitem text="Delete"        target="DeleteLesson" />
+		<tocitem text="Embed Keyboards/Fonts" target="EmbedFonts" />
+        <tocitem text="Execute"       target="ExecuteLesson" />
+        <tocitem text="Insert"        target="InsertLesson" />
+        <tocitem text="Lesson List"   target="LessonListLesson" />
+        <tocitem text="Modify"        target="ModifyLesson" />
+   	    <tocitem text="Scroll"        target="ScrollLesson" />
+      </tocitem>
+
+     <tocitem text="Tools">
+		<tocitem text="Audio Controls" target="OptionsControls" />
+        <tocitem text="Audio Feedback" target="AudioFeedback" />
+        <tocitem text="Execute" target="ExecuteLesson" />
+        <tocitem text="Options" target="OptionsTools" />
+     </tocitem>
+
+     <tocitem text="Windows">
+        <tocitem text="Full View"     target="FullViewWindows" />
+        <tocitem text="Switch Window" target="SwitchWindows" />
+        <tocitem text="Tabbed View"   target="TabbedViewWindows" />
+     </tocitem>
+  </tocitem>
+</toc>

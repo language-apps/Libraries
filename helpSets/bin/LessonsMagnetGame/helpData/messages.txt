@@ -1,0 +1,8 @@
+Magnet Game
+add;edit;garbage
+Enter a sentence here
+Sentences
+Basic;Moderate;Challenging;Hard;Extreme
+Difficulty level is already maximum;Difficulty level is already minimum;Increase difficulty level from;Decrease difficulty level from
+Reset game
+There are no magnets to create in the native language
